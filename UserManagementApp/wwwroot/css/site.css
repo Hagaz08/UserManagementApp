@@ -1,0 +1,116 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background: #eeeeee;
+}
+
+.my_card-panel{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.my_card{
+    
+    border-radius:16px;
+    width: 330px;
+    margin:20px;
+    box-sizing:border-box;
+    background:white;
+}
+.my_card-desc{
+    padding: 20px;
+}
+.my_card_image_box{
+    width:100%;
+    height:200px;
+    overflow:hidden;
+}
+.my_card_image_box img {
+    width: 100%;
+   
+}
+a{
+    text-decoration:none;
+}
+.drawer-panel, .side-drawer, .drawer-content-area{
+    box-sizing:border-box;
+}
+.side-drawer, .drawer-content-area {
+    padding:20px;
+}
+.drawer-panel {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: blue;
+}
+.side-drawer {
+    position: absolute;
+    width: 250px;
+    height: 100vh;
+    background: #eeeeee;
+}
+.drawer-content-area-inner{
+margin-left:260px;
+}
+.auth-panel-inner{
+    width:400px;
+    min-width:300px;
+    border-radius:16px;
+    background:white;
+    padding:20px;
+    box-sizing:border-box;
+    margin-top:3%;
+}
+.auth-panel{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+.auth-panel-inner form p input {
+   width:100%;
+   padding:10px;
+   border-radius:10px;
+   outline:none;
+   border:1px solid #dddddd;
+}
+.auth-panel-inner form button {
+    width: 100%;
+    
+}
+.flex-btw {
+    display:flex; 
+    justify-content:space-between; 
+    align-items:center;
+}
+#nav_div{
+    position: relative;
+}
+.pull-to-right{
+    position: absolute;
+    right: 20px;
+}
+.congrats_box{
+    width:100%;
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
