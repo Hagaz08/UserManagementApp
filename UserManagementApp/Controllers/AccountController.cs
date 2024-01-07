@@ -73,7 +73,7 @@ Please click the link <a href='{link}'> here </a> to confirm your account's emai
 		{
 			var user = await _userManager.FindByEmailAsync(Email);
 
-			if (token != null) 
+			if (user != null) 
 			{
 				var confirmEmailResult = await _userManager.ConfirmEmailAsync(user, token);
 				if (confirmEmailResult.Succeeded)
